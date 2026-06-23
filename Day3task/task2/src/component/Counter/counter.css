@@ -1,0 +1,26 @@
+.btn{
+    padding: 10px;
+    background-color: rgb(255, 148, 218);
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: rgb(255, 148, 218);
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.countenir{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.countenir span{
+    font-size: 30px;
+}
