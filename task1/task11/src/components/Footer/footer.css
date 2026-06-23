@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer-column {
+    flex: 1; 
+    min-width: 200px; 
+    
+}
+.footer-column li{
+  list-style: none;
+}
+.footer-column .description{
+    display: flex;
+    flex-wrap: wrap;
+}
