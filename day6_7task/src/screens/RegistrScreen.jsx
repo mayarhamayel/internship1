@@ -9,6 +9,26 @@ function Registr() {
   const handleSubmit=(e)=>{
     e.preventDefault();
 
+    if(nameInput.trim()===""){
+      alert("Full Name is required");
+      return;
+    }
+
+    if (emailInput.trim() === "" || !emailInput.includes("@")) {
+      alert("Invalid Email");
+      return;
+    }
+
+    if (phoneInput.trim() === "" || phoneInput.length < 10) {
+      alert("Phone number is too short");
+      return;
+    }
+
+    if (addresInput.trim() === "") {
+      alert("addres is required");
+      return;
+    }
+
     const formData = {
       fullName: nameInput,
       email: emailInput,
